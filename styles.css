@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #00030C;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Estrutura de 2 colunas */
+.container {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+/* Seção Principal */
+.principal {
+    background: url("img/Background.png") no-repeat right center / contain;
+    text-align: center;
+}
+
+.caixa {
+    margin: 0 15%;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+.logo-combo {
+    margin: 20px 0 35px;
+    max-width: 100%;
+}
+
+.botao {
+    display: block;
+    background-color: #167BF7;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 16px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+}
+
+.botao-secundario {
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+}
+
+.aviso {
+    font-size: 12px;
+    color: #C0C0C0;
+}
+
+/* Seções Secundárias */
+.secundario {
+    margin: 0 10%;
+    gap: 40px;
+}
+
+.secundario img {
+    width: 85%;
+    justify-self: center;
+}
+
+h2 {
+    font-size: 44px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #C0C0C0;
+    line-height: 1.5;
+}
+
+.botao-inline {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/* Dispositivos */
+.dispositivos {
+    text-align: center;
+    margin: 80px 0;
+}
+
+.lista-flex {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 50px;
+}
+
+h3 {
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+/* Rodapé */z
+footer {
+    text-align: center;
+    padding: 50px 5%;
+}
+
+footer p {
+    font-size: 13px;
+    margin-bottom: 15px;
+}
